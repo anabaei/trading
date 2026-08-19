@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/amir.n/personal rev-parse --is-inside-work-tree)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot",
+      "Bash(python3 -m json.tool)",
+      "mcp__playwright__browser_evaluate",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Read(//Users/amir.n/.ssh/**)",
+      "Bash(ssh -o BatchMode=yes -o StrictHostKeyChecking=no -T git@github.com)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}
